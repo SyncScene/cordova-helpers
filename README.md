@@ -38,3 +38,8 @@ As a result of some difficulties with the hook system in Cordova, we generated a
 | | `node build.js android` | Decompile before compiling the templates, then execute `cordova run android`.  All arguments after `build.js` are passed through to the Cordova command. |
 | compile.js | `node compile.js` | Compiles the templates.  Useful for seeing the generated output. |
 | decompile.js | `node decompile.js` | Decompiles the templates.  Can be run at any time to clean files. |
+
+## To-Do
+- [ ] Add conditionals to template system
+- [ ] Add templates to JS files
+- [ ] Add templates to CSS files
